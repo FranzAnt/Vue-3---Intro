@@ -2,7 +2,7 @@
 const options = {
     // esta funcion siempre retorna un objeto
 	data: () => ({
-      name: "Mi primera aplicacación con Vue"
+      name: "Mi primera aplicación con Vue 3"
     }),
     // cuando se crea objeto,  solo se ejecuta un vez
     created(){
