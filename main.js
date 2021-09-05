@@ -4,6 +4,8 @@ const options = {
 	data: () => ({
       name: "Mi primera aplicación con Vue 3",
       counter: 0,
+      title:"Tu mouse está encima",
+      sourceImage: './assets/img/edificio.jpg'
     }),
     // cuando se crea objeto,  solo se ejecuta un vez
     created(){
