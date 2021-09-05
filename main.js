@@ -3,7 +3,6 @@ const options = {
     // esta funcion siempre retorna un objeto
 	data: () => ({
       name: "Mi primera aplicacación con Vue"
-    
     }),
     // cuando se crea objeto,  solo se ejecuta un vez
     created(){
@@ -26,4 +25,4 @@ const options = {
     }
 }
 
-const app = ''
+const app = Vue.createApp(options)

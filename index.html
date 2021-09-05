@@ -10,10 +10,15 @@
   </head>
   <body>
     <div id="app">
-      <h1>Ejemplo</h1>
+      <h1>{{name}}</h1>
     </div>
 
     <!-- Import Js -->
     <script src="./main.js"></script>
+    <script>
+        // se monta en el selector css #app
+        // #app es un elmento que contiene el id="app"
+        const appMount = app.mount('#app')
+      </script>
   </body>
 </html>
